@@ -1,0 +1,25 @@
+h2 {
+    font-size: 8px;
+    color: rgba(255, 55, 0);
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+
+div > p {
+    font-size: 24px;
+    color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+/*
+  NOTE: there is a limitation in this setup, will debug later.  If I try using
+  a class selector for this style we only see the selector above in effect.
+
+  So, I added the parent child selector for now and made this one, for by
+  element and not class.
+*/
+p {
+    font-size: 48px;
+    color: rgba(255, 0, 0);
+    background-color: rgba(0, 255, 0, 0.5);
+}
